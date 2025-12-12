@@ -155,5 +155,18 @@ Also called a **packet sniffer**, this tool captures and analyzes **network traf
 These tools allow analysts to see **what is actually happening** on the network.
 
 ---
+## 🔍 Cybersecurity Tool Comparison Table
+
+| Tool Type | Tool Name | Primary Purpose | Key Features | Best Used For | Beginner Tip |
+|----------|----------|----------------|--------------|---------------|--------------|
+| **SIEM** | **Splunk Enterprise** | Collect, search, and analyze log data | Self-hosted, powerful search, dashboards, alerts | Log analysis, incident investigation | Focus on learning searches and alerts first |
+| **SIEM** | **Google Chronicle** | Cloud-native log storage and analysis | Scalable, fast search, cloud-based | Large-scale security monitoring | Understand how cloud SIEM differs from on-prem |
+| **Playbook** | **Incident Response Playbooks** | Guide security response actions | Step-by-step procedures | Handling incidents consistently | Follow the steps—don’t improvise |
+| **Network Analyzer** | **Wireshark** | Capture and inspect network packets | GUI-based, detailed packet view | Traffic analysis, troubleshooting | Learn basic filters first |
+| **Network Analyzer** | **tcpdump** | Capture network traffic via command line | Lightweight, fast, CLI-based | Quick packet capture | Practice simple capture commands |
+| **Log Source** | **System & App Logs** | Record system events | Login logs, access logs | Detect suspicious activity | Logs are the foundation of all tools |
+| **Automation** | **SQL** | Query and analyze security data | Structured queries, fast filtering | Trend analysis, investigations | Start with SELECT statements |
+| **Automation** | **Python** | Automate security tasks | Scripting, APIs, data processing | Automation, analysis | Learn basic scripts, not advanced code |
+
 
 
