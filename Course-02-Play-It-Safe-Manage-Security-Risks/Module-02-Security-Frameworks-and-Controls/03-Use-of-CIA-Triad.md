@@ -148,9 +148,9 @@ Integrity ensures that data is **accurate, authentic, and reliable**.
 
 ### How Analysts Apply Integrity
 
-* Use **cryptography** to protect data from tampering
+* Use **cryptography** to protect data from tampering 
 * Enable **encryption** to convert plaintext into encoded data
-* Verify that data has not been altered by unauthorized parties
+* Verify that data has not been altered by unauthorized parties using **Hash Functions** or **Digital Signature**
 
 📌 *Encrypted internal messages help ensure data cannot be modified or falsified.*
 
