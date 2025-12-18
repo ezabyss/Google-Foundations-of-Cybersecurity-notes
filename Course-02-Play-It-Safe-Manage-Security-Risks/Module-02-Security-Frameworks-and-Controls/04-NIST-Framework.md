@@ -1,6 +1,6 @@
 # 🛡️ NIST Cybersecurity Framework (CSF)
 
-## Notes by Abhishek (Ez Abyss)
+**Notes by Abhishek (Ez Abyss)**
 
 ---
 
@@ -12,15 +12,15 @@ Security frameworks are used by organizations as a **starting point** to develop
 * Threats
 * Vulnerabilities
 
-to **sensitive data and assets**.
+that affect **sensitive data and assets**.
 
-Many organizations around the world create and maintain frameworks that security professionals rely on to design effective security programs. These frameworks apply to:
+Organizations worldwide rely on security frameworks to design effective security programs. These frameworks apply to:
 
-* For‑profit organizations
+* For-profit organizations
 * Nonprofit organizations
 * Government agencies
 
-Although **NIST** is a U.S.-based organization, its guidance is used **globally** to implement essential cybersecurity practices.
+Although **NIST is a U.S.-based organization**, its guidance is used **globally** to implement essential cybersecurity practices.
 
 ---
 
@@ -39,17 +39,36 @@ The **NIST Cybersecurity Framework (CSF)** is one of the most widely used and re
 
 ---
 
-## 🔁 The Five Core Functions of NIST CSF
+## 🔁 The Six Core Functions of NIST CSF
 
-The CSF is structured around **five core functions**:
+The latest version of the NIST CSF includes **six core functions**:
 
-1. **Identify**
-2. **Protect**
-3. **Detect**
-4. **Respond**
-5. **Recover**
+1. **Govern**
+2. **Identify**
+3. **Protect**
+4. **Detect**
+5. **Respond**
+6. **Recover**
 
-These functions guide how organizations **prepare for, handle, and recover from security incidents**.
+These functions guide how organizations establish oversight, prepare for incidents, respond to threats, and recover from security events.
+
+---
+
+## 🧠 New Core Function: Govern
+
+### Purpose
+
+The **Govern** function emphasizes strong cybersecurity governance across the organization.
+
+### What Govern Focuses On
+
+* Setting clear cybersecurity objectives
+* Ensuring leadership commitment and accountability
+* Defining roles, responsibilities, and decision-making structures
+* Developing and maintaining a comprehensive risk management strategy
+* Continuously improving cybersecurity performance
+
+📌 *Govern ensures cybersecurity is a business and leadership responsibility, not just a technical one.*
 
 ---
 
@@ -57,9 +76,12 @@ These functions guide how organizations **prepare for, handle, and recover from 
 
 ### Scenario
 
-A high‑risk alert indicates that a workstation has been compromised.
+A high-risk alert indicates that a workstation has been compromised.
 
-### Step‑by‑Step Using the CSF
+### Step-by-Step Using the CSF
+
+* **Govern**
+  Security policies and risk management processes define how incidents are handled and who is accountable.
 
 * **Identify**
   The compromised workstation is identified, and an unknown device is discovered.
@@ -98,17 +120,17 @@ It is a **core framework** that most security professionals are expected to unde
 
 ---
 
-## 🏛️ NIST Special Publication 800‑53 (SP 800‑53)
+## 🏛️ NIST Special Publication 800-53 (SP 800-53)
 
-The NIST CSF extends into federal government security through **NIST SP 800‑53**.
+The NIST CSF extends into federal government security through **NIST SP 800-53**.
 
-### What SP 800‑53 Does
+### What SP 800-53 Does
 
 * Provides a unified framework for protecting U.S. federal information systems
 * Applies to government systems and private systems used by the government
 * Defines security controls used to maintain the **CIA Triad**
 
-📌 *Understanding SP 800‑53 is essential for analysts interested in federal government roles.*
+📌 *Understanding SP 800-53 is essential for analysts interested in federal government roles.*
 
 ---
 
@@ -116,9 +138,8 @@ The NIST CSF extends into federal government security through **NIST SP 800‑53
 
 * **Frameworks** provide structure and guidance
 * **Controls** enforce security and reduce risk
-* Both work together to protect systems and data
 
-This integration helps maintain:
+Together, they help protect systems and data by maintaining:
 
 * Confidentiality
 * Integrity
@@ -130,8 +151,9 @@ This integration helps maintain:
 
 * Security frameworks guide risk management
 * NIST CSF is widely used across industries
-* The five CSF functions support incident response and recovery
-* SP 800‑53 is critical for federal security systems
+* **Govern adds leadership, accountability, and strategy to security efforts**
+* The six CSF functions support the full incident lifecycle
+* SP 800-53 is critical for federal security systems
 * Understanding these frameworks strengthens a security analyst’s foundation
 
 ---
