@@ -1,143 +1,170 @@
-# Conduct a Security Audit – Practice Scenario
+# Conduct a Security Audit – Practice Lab
 
-## Purpose
+This document presents a **guided internal security audit exercise** based on a
+fictional company scenario.
+for learners who want hands-on practice applying security frameworks, controls, and
+compliance requirements in a realistic context.
 
-to **apply security frameworks, controls, and compliance concepts**
-
----
-
-## Scenario: Botium Toys
-
-Botium Toys is a small U.S.-based company that develops and sells toys.
-
-### Business Overview
-- One physical location (office, storefront, warehouse)
-- Growing online presence
-- Customers in the U.S. and European Union
-- Internally processes online payments
-
-As the company grows, the IT manager is concerned about:
-- Security risks
-- Compliance requirements
-- Business continuity
-
-To address these concerns, an **internal security audit** has been initiated using the **NIST Cybersecurity Framework (CSF)**.
+**analyze the scenario, complete the checklist, and
+form their own conclusions**
 
 ---
 
-## Documents Provided
+## 🎯 Objective
 
-Assume the following information has been provided to you:
+The goal of this exercise is to help you:
 
-- Audit scope and goals
-- Asset inventory
-- Risk assessment report
-- Controls and compliance checklist template
-
-Your task is to **analyze this information and complete the audit**.
-
----
-
-## Your Task: Conduct the Audit
-
-### Step 1: Review Scope and Goals
-Answer:
-- What is included in the audit scope?
-- What is the primary goal of the audit?
-- Which assets are critical to business operations?
+- Understand how internal security audits are conducted
+- Apply the NIST Cybersecurity Framework (CSF)
+- Evaluate security controls and compliance requirements
+- Identify risks, gaps, and improvement areas
+- Practice audit thinking used in real security roles
 
 ---
 
-### Step 2: Identify Risks
-Based on the risk assessment:
-- What security risks exist?
-- Which risks are highest priority?
-- How could these risks impact confidentiality, integrity, or availability?
+## 🏢 Scenario Overview
+
+**Botium Toys** is a small U.S.-based toy company with a growing online presence.
+The company operates:
+
+- A physical storefront and warehouse
+- An internal IT-managed network
+- An ecommerce platform serving U.S. and EU customers
+
+As the business grows, the IT manager has requested an **internal security audit**
+to better understand the company’s security posture and compliance risks,
+especially related to:
+
+- Payment card processing (PCI DSS)
+- European Union customer data (GDPR)
+
+The audit follows the **NIST Cybersecurity Framework (CSF)**.
 
 ---
 
-### Step 3: Assess Security Controls
-For each control, decide **Yes** or **No**:
-- Least privilege
-- Password policies
-- Encryption
-- Firewall
-- IDS
-- Antivirus software
-- Backups
-- Disaster recovery plans
-- Physical security controls (locks, CCTV, fire prevention)
+## 📋 Your Role as the Analyst
 
-Classify each control as:
-- Administrative
-- Technical
-- Physical
+You are acting as an **internal security analyst** tasked with:
+
+- Reviewing the audit scope and goals
+- Understanding the organization’s assets
+- Analyzing a provided risk assessment
+- Completing a controls and compliance checklist
+- Identifying major security gaps and risks
 
 ---
 
-### Step 4: Assess Compliance
-Determine whether the organization meets requirements for:
+## 🧭 Audit Scope & Goals
 
-- **PCI DSS**
-  - Credit card data protection
-  - Access control
-  - Encryption
-  - Password management
+### Scope
+The audit covers the **entire security program at Botium Toys**, including:
 
-- **GDPR**
-  - EU customer data protection
-  - Breach notification within 72 hours
-  - Data classification and inventory
-  - Privacy policies and procedures
+- Physical, technical, and administrative controls
+- Internal processes and procedures
+- Compliance with applicable regulations
 
----
-
-### Step 5: Document Findings
-Answer:
-- What controls are missing or weak?
-- Where is the organization non-compliant?
-- Which gaps pose the highest risk?
+### Goals
+- Assess existing assets
+- Evaluate current security controls
+- Identify compliance gaps
+- Highlight risks that could impact business operations or result in fines
 
 ---
 
-### Step 6: Make Recommendations
-Provide recommendations that:
-- Reduce risk
-- Improve compliance
-- Strengthen the organization’s security posture
+## 🧾 Asset Inventory
+
+Assets managed by the IT department include:
+
+- On-premises business equipment
+- Employee devices (desktops, laptops, smartphones)
+- Storefront and warehouse inventory
+- Internal systems (accounting, ecommerce, databases)
+- Internal network and internet access
+- Data retention and storage systems
+- Legacy systems requiring manual monitoring
 
 ---
 
-## Try It Yourself First
+## ⚠️ Risk Assessment Summary
 
-Before reviewing the solution:
-- Write your own findings
-- Create your own checklist
-- Think like a security analyst
+Key findings from the risk assessment:
 
-There is **no single perfect answer** — focus on reasoning and justification.
+- Asset management is inadequate
+- Access controls are weak
+- Encryption is not used for sensitive payment data
+- Disaster recovery and backups are missing
+- Compliance gaps exist for PCI DSS and GDPR
+
+**Overall Risk Score:** 8 / 10 (High)
 
 ---
 
-## 📌 Solution Reference
+## 🧪 Controls & Compliance Checklist (Exercise)
 
-After completing the exercise, you can review my solution here:
+Using the information above, determine whether Botium Toys currently adheres to
+each best practice.
 
-👉 **Internal Security Audit – Botium Toys (Portfolio Project)**  
+### 🔐 PCI DSS – Payment Card Security
+
+| Control | Yes | No |
+|------|-----|----|
+| Only authorized users can access cardholder data | ⬜ | ⬜ |
+| Credit card data is stored and transmitted securely | ⬜ | ⬜ |
+| Encryption is used for payment data | ⬜ | ⬜ |
+| Secure password management policies are enforced | ⬜ | ⬜ |
+
+---
+
+### 🌍 GDPR – EU Data Protection
+
+| Requirement | Yes | No |
+|-----------|-----|----|
+| EU customer data is kept private and secure | ⬜ | ⬜ |
+| Breach notification within 72 hours is defined | ⬜ | ⬜ |
+| Data is properly classified and inventoried | ⬜ | ⬜ |
+| Privacy policies and procedures are enforced | ⬜ | ⬜ |
+
+---
+
+### 🛠️ Security Controls Assessment
+
+| Control | Yes | No |
+|------|-----|----|
+| Least privilege access is enforced | ⬜ | ⬜ |
+| Separation of duties is implemented | ⬜ | ⬜ |
+| Firewall is deployed and managed | ⬜ | ⬜ |
+| Intrusion Detection System (IDS) is in place | ⬜ | ⬜ |
+| Antivirus software is installed and monitored | ⬜ | ⬜ |
+| Backups and disaster recovery plans exist | ⬜ | ⬜ |
+| Encryption is used for sensitive data | ⬜ | ⬜ |
+| Centralized password management system exists | ⬜ | ⬜ |
+| Physical security (locks, CCTV) is implemented | ⬜ | ⬜ |
+
+---
+
+## 🤔 Reflection Questions
+
+Before viewing the solution, consider:
+
+- Which missing controls pose the highest risk?
+- Which compliance gaps could lead to fines?
+- Which controls should be prioritized first?
+- How could these gaps affect business continuity?
+
+---
+
+## 📎 Completed Audit Solution
+
+A full internal security audit based on this scenario — including findings,
+risk analysis, and recommendations — is documented separately as part of my
+professional cybersecurity portfolio.
+
+👉 **View the completed audit solution here:**  
 https://github.com/ezabyss/Cybersecurity-Portfolio/tree/main/Internal-Security-Audits/botium-toys
 
-The solution includes:
-- Audit scope and goals
-- Risk assessment analysis
-- Controls and compliance checklist
-- Findings and recommendations
-
 ---
 
-## Learning Outcome
+## 📝 Notes
 
-By completing this exercise, you practice:
-- Applying NIST CSF concepts
-- Identifying risks and gaps
-- Evaluating controls and compliance
-- Communicating audit findings professionally
+- This scenario is fictional and created for educational purposes
+- The exercise mirrors real-world internal audit workflows
