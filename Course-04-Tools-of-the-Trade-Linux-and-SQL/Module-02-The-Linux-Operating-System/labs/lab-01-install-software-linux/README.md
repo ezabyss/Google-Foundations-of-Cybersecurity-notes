@@ -7,14 +7,18 @@ All tasks were completed using the **Bash shell** in a Linux environment.
 
 ---
 
-## Objectives
-- Verify that the APT package manager is installed and available
-- Install and uninstall software using APT
-- Reinstall applications to confirm package management functionality
-- Gain hands-on experience with Linux security tools
+## Scenario
+As a security analyst, you are required to install and manage network security tools on a Linux system. In this scenario, you must:
+
+- Verify that the APT package manager is installed
+- Install and uninstall the Suricata application
+- Install the tcpdump application
+- Confirm which applications are currently installed
+- Reinstall Suricata and verify both tools are present
+
+These tasks reflect common responsibilities in security operations and system administration roles.
 
 ---
-
 ## Tools & Applications Used
 
 ### 🔹 APT (Advanced Package Tool)
