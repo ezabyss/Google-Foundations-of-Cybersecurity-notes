@@ -143,5 +143,34 @@ These tools:
 - Keeping packages updated improves **system security**
 
 ---
+---
+
+## Hands-On Lab: Installing Software with APT
+
+To reinforce the concepts of Linux package management, I completed a hands-on lab
+using the Advanced Package Tool (APT) in a Debian-based Linux environment.
+
+### Lab Objectives
+- Verify that APT is installed
+- Install and uninstall security applications
+- List installed packages
+- Reinstall and verify applications
+
+### Tools Used
+- APT (Advanced Package Tool)
+- Suricata (Intrusion Detection System)
+- tcpdump (Network packet analyzer)
+
+### Lab Documentation
+📄 **Lab README:**  
+[`labs/lab-01-install-software-linux/README.md`](labs/lab-01-install-software-linux/README.md)
+
+📸 **Execution Screenshots:**  
+[`labs/lab-01-install-software-linux/screenshots/`](labs/lab-01-install-software-linux/screenshots/)
+
+This lab demonstrates practical usage of package managers for installing and managing
+security tools commonly used in Linux-based security operations.
+
+---
 
 *✍️ Notes By Abhishek (Ez Abyss)*
