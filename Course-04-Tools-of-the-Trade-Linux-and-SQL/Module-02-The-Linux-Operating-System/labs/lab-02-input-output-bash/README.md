@@ -38,22 +38,27 @@ The `clear` command clears all existing output from the shell window, providing 
 
 ## Tasks Performed
 
-### Task 1: Generate Output with `echo`
-
-```bash
+# Task 1: Generate output using echo
+```
 echo hello
+echo "hello"
+echo "Ez Abyss"
 ```
 
-### Task 2: Generate Output with `expr`
+# Task 2: Perform calculations using expr
 ```
 expr 32 - 8
-```
-
-### Calculate yearly login attempts
-```
 expr 3500 \* 12
 ```
-### Expected output:
-```42000```
 > Note: The multiplication operator * is escaped using \* to prevent shell interpretation.
 
+
+# Optional exploration
+```
+echo "Exploring input and output in Bash"
+expr 25 + 15
+```
+# Task 3: Clear the terminal
+```
+clear
+```
