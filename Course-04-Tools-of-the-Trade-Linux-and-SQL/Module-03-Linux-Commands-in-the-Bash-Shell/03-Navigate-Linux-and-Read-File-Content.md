@@ -265,5 +265,17 @@ Navigation controls inside `less`:
 - These skills are **critical for security analysts**
 
 ---
+## Lab Documentation
+
+**📄 Lab README**  
+- [Lab 01 – Navigate and Read Files](labs/lab-01-navigate-and-read-files/README.md)
+
+**📸 Execution Screenshots**  
+- [Screenshots Folder](labs/lab-01-navigate-and-read-files/screenshots)
+
+**Description**  
+This lab demonstrates navigating the Linux file system, locating files, and reading file contents using core Bash commands such as `pwd`, `ls`, `cd`, `cat`, and `head`.
+
+---
 
 *✍️ Notes By Abhishek (Ez Abyss)*
