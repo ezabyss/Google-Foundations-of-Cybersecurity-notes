@@ -219,5 +219,16 @@ chmod g-rw bonuses.txt
 - Misconfigured permissions are **common SOC findings**
 
 ---
+## Lab Documentation
+
+**📄 Lab README**  
+- [Lab 04 – Manage Authorization](labs/lab-04-manage-authorization/README.md)
+
+**📸 Execution Screenshots**  
+- [Screenshots Folder](labs/lab-04-manage-authorization/screenshots)
+
+**Description**  
+This lab demonstrates managing Linux authorization by inspecting and modifying file and directory permissions using `ls -l` and `chmod`.
+---
 
 *✍️ Notes By Abhishek (Ez Abyss)*
