@@ -218,5 +218,17 @@ These commands allow analysts to:
 - Proper organization improves **security and response time**
 
 ---
+## Lab Documentation
+
+**📄 Lab README**  
+- [Lab 03 – Manage Files](labs/lab-03-manage-files/README.md)
+
+**📸 Execution Screenshots**  
+- [Screenshots Folder](labs/lab-03-manage-files/screenshots)
+
+**Description**  
+This lab focuses on creating, removing, moving, and editing files and directories using Linux commands and the `nano` text editor.
+
+---
 
 *✍️ Notes By Abhishek (Ez Abyss)*
