@@ -20,6 +20,32 @@ You will:
 These tasks reflect common file management responsibilities in security and system administration roles.
 
 ---
+## Initial Directory Structure
+
+    /home/analyst
+    ├── notes
+    │   ├── Q3patches.txt
+    │   └── tempnotes.txt
+    ├── reports
+    │   ├── Q1patches.txt
+    │   └── Q2patches.txt
+    └── temp
+
+---
+
+## Final Directory Structure
+
+    /home/analyst
+    ├── logs
+    ├── notes
+    │   └── tasks.txt
+    └── reports
+        ├── Q1patches.txt
+        ├── Q2patches.txt
+        └── Q3patches.txt
+
+---
+
 
 
 ## Commands Used
