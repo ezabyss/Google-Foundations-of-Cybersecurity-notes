@@ -239,5 +239,16 @@ Filtering tools help security analysts:
 - These tools help analysts work faster and smarter
 
 ---
+## Lab Documentation
 
+**📄 Lab README**  
+- [Lab 02 – Filter with grep](labs/lab-02-Filter-With-Grep/README.md)
+
+**📸 Execution Screenshots**  
+- [Screenshots Folder](labs/lab-02-Filter-With-Grep/screenshots)
+
+**Description**  
+This lab demonstrates practical usage of `grep` and piping to search log files, filter file names, and extract specific user and system information efficiently.
+
+---
 *✍️ Notes By Abhishek (Ez Abyss)*
