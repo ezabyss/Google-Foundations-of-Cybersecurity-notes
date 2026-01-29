@@ -1,5 +1,8 @@
 # 🦠 Malware: Understanding Digital Infections 
 
+
+---
+
 ## 1. What is Malware?
 **Malware (malicious software)** is software designed to harm devices, networks, or data.  
 Just like humans can get sick from viruses, computers can get “infected” by malware.
@@ -202,6 +205,23 @@ Multiple hosts show same behavior.
   - Network analysis
   - Memory inspection
 - SOC analysts must **identify, isolate, eradicate, and educate**
+
+---
+
+## 🦠 Malware Types – Comparison Table
+
+| Malware Type | Requires User Action? | How It Spreads | Primary Purpose | Key Characteristic | SOC Detection Clue |
+|-------------|----------------------|---------------|-----------------|--------------------|-------------------|
+| **Virus** | ✅ Yes | Infected files, email attachments | Damage data & software | Hides inside legitimate programs | File integrity changes after user opens file |
+| **Worm** | ❌ No | Network scanning & self-propagation | Rapid spread & disruption | Spreads autonomously | Sudden network traffic spikes |
+| **Trojan** | ✅ Yes | Disguised downloads or apps | Gain access / install payloads | Looks legitimate | Suspicious outbound connections after install |
+| **Ransomware** | ✅ Often | Phishing, trojans, exploits | Extort money via encryption | Files encrypted + ransom note | Mass file encryption alerts |
+| **Spyware** | ❌ Often | Bundleware, freeware | Steal sensitive data | Operates silently | Credential theft, unusual data exfiltration |
+| **Adware (PUA)** | ❌ | Bundled software | Monetize ads | Excessive pop-ups | Performance degradation |
+| **Scareware (PUA)** | ❌ | Pop-ups, fake alerts | Trick users into installing malware | Fake security warnings | User-installed “fake antivirus” |
+| **Fileless Malware** | ❌ | Exploits, scripts | Stealth persistence | Lives only in memory | No malicious files on disk |
+| **Rootkit** | ❌ | Droppers & loaders | Persistent admin control | Hides from OS & AV | Privilege persistence after reboot |
+| **Botnet Malware** | ❌ | Viruses, worms, trojans | Remote control of devices | Centralized command & control | Periodic beaconing to C2 server |
 
 ---
 
