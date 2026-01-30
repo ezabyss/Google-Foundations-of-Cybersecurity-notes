@@ -109,7 +109,7 @@ Developed by **Microsoft**, STRIDE focuses on six attack vectors:
 
 ### 🟩 PASTA
 
-**PASTA (Process of Attack Simulation and Threat Analysis)** is a **risk-centric** framework developed by leaders within :contentReference[oaicite:1]{index=1} and supported by VerSprite.
+**PASTA (Process of Attack Simulation and Threat Analysis)** is a **risk-centric** framework developed by leaders within OWASP and supported by VerSprite.
 
 Key characteristics:
 - Evidence-based
