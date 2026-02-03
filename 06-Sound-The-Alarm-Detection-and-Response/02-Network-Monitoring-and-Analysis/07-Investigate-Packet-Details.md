@@ -42,13 +42,13 @@ IPv4 headers contain metadata essential for routing and analysis.
 | **Field** | **Purpose** |
 |---------|-----------|
 | Version | Indicates IP version (IPv4). |
-| IHL | Length of the IPv4 header including options. |
-| ToS | Packet priority and delivery handling. |
+| IHL (Internet Header Length) | Length of the IPv4 header including options. |
+| ToS (Type of Service) | Packet priority and delivery handling. |
 | Total Length | Size of entire packet (header + data). |
 | Identification | Identifies packet fragments for reassembly. |
 | Flags | Controls and indicates fragmentation. |
 | Fragment Offset | Position of a fragment within the original packet. |
-| TTL | Limits packet lifetime to prevent infinite routing. |
+| TTL (Time to Live) | Limits packet lifetime to prevent infinite routing. |
 | Protocol | Identifies next-layer protocol (e.g., TCP = 6). |
 | Header Checksum | Error-checking for the header. |
 | Source Address | Sender’s IP address. |
