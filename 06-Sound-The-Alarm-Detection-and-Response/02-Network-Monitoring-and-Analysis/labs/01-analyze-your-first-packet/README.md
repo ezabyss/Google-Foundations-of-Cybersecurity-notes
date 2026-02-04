@@ -34,15 +34,6 @@ By completing this lab, I'll be able to:
 
 ---
 
-## 📂 Repository Structure
-```
-analyze-first-packet/
-├── README.md
-└── evidence/
-```
-
----
-
 ## 📸 Evidence
 The `evidence/` folder contains screenshots showing:
 - Opened packet capture file in Wireshark
