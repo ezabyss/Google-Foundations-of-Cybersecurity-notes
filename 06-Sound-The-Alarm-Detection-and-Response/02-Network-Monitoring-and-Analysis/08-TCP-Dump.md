@@ -58,6 +58,8 @@ Meaning:
 
 ## 6️⃣ How to Read tcpdump Output (What You’ll See)
 
+<img width="1600" height="344" alt="image" src="https://github.com/user-attachments/assets/36958d5c-89c3-4f03-a248-4fd7bc671e80" />
+
 Each packet prints as one line starting with:
 
 - **Timestamp** (useful for timelines)
