@@ -168,7 +168,7 @@ Uses square brackets [].
 Examples:
 
     print([12, 36, 54])
-    print(["Abhishek", "Ravi", "Om"])
+    print(["abhishek", "ravi", "om"])
     print([])
 
 [] → empty list
