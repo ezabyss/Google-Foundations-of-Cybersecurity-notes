@@ -39,6 +39,10 @@ parse-textfile/
 ## ▶️ How to Run
 `python3 lab_import_parse.py`
 
+## 🔄 Reset the Login File (Optional)
+If you want to reset data/login.txt back to original contents:
+`python3 lab_import_parse.py --reset`
+
 ## 🧩 What the Lab Does
 
 ### Task 1 & 2 — Import and Read a Log File
